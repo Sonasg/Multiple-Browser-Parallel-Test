@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <test name="Test2(failed)" parallel="methods">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.Test.TestSearch">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Test.TestSearch -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
